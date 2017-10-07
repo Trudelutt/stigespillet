@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="619.0" prefWidth="651.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Stigespillet.gameController">
+   <children>
+      <GridPane fx:id="Grid" gridLinesVisible="true" hgap="1.0" prefHeight="588.0" prefWidth="647.0" vgap="1.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <BorderPane prefHeight="25.0" prefWidth="29.0">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="90" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="8">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="82" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="7">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="83" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="6">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="84" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane layoutX="226.0" layoutY="10.0" prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="8" GridPane.rowIndex="1">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="81" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="5">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="85" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="4">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="86" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="58.0" prefWidth="11.0" style="-fx-background-color: red;" GridPane.columnIndex="3">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="87" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="2">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="88" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="1">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="89" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="29.0" style="-fx-background-color: red;" GridPane.columnIndex="7" GridPane.rowIndex="1">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="80" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+               <bottom>
+                  <ImageView fitHeight="42.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true" rotate="7.6" scaleY="12.0" translateX="-30.0" translateY="200.0" BorderPane.alignment="CENTER">
+                     <image>
+                        <Image url="@stige.png" />
+                     </image>
+                  </ImageView>
+               </bottom>
+            </BorderPane>
+            <BorderPane opacity="0.78" prefHeight="25.0" prefWidth="29.0" style="-fx-background-color: lightgrey;" GridPane.columnIndex="6" GridPane.rowIndex="1">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="79" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="5" GridPane.rowIndex="3">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="60" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="4" GridPane.rowIndex="3">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="59" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="3" GridPane.rowIndex="5">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="40" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" style="-fx-background-color: lightgreen;" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="39" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="1" GridPane.rowIndex="7">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="20" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="29.0" style="-fx-background-color: lightgrey;" GridPane.columnIndex="8" GridPane.rowIndex="8">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="10" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+               <bottom>
+                  <ImageView fitHeight="42.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true" rotate="-154.9" translateX="-20.0" translateY="20.0" BorderPane.alignment="BOTTOM_LEFT">
+                     <image>
+                        <Image url="@stige.png" />
+                     </image>
+                  </ImageView>
+               </bottom>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="8" GridPane.rowIndex="9">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="9" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" style="-fx-background-color: lightgrey;" GridPane.rowIndex="7">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="19" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="7" GridPane.rowIndex="6">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="29" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="6" GridPane.rowIndex="6">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="30" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" style="-fx-background-color: lightgreen;" GridPane.columnIndex="5" GridPane.rowIndex="4">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="49" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+               <left>
+                  <ImageView fitHeight="42.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true" rotate="124.0" scaleY="7.0" translateX="-80.0" translateY="-90.0" BorderPane.alignment="CENTER">
+                     <image>
+                        <Image url="@stige.png" />
+                     </image>
+                  </ImageView>
+               </left>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="4" GridPane.rowIndex="4">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="50" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="69" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="71" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="5" GridPane.rowIndex="1">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="78" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="77" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+               <center>
+                  <ImageView fitHeight="42.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true" rotate="-80.5" scaleY="5.0" translateX="40.0" translateY="-20.0" BorderPane.alignment="CENTER">
+                     <image>
+                        <Image url="@stige.png" />
+                     </image>
+                  </ImageView>
+               </center>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="76" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="10.0" prefWidth="10.0" style="-fx-background-color: lightgrey;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="75" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="74" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" style="-fx-background-color: lightgrey;" GridPane.rowIndex="1">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="73" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.rowIndex="2">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="72" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="70" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="4" GridPane.rowIndex="2">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="68" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="5" GridPane.rowIndex="2">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="67" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="6" GridPane.rowIndex="2">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="66" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" style="-fx-background-color: lightgreen;" GridPane.columnIndex="7" GridPane.rowIndex="2">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="65" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+               <left>
+                  <ImageView fitHeight="42.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true" rotate="93.8" scaleY="13.0" translateX="-250.0" translateY="-20.0" BorderPane.alignment="CENTER">
+                     <image>
+                        <Image url="@stige.png" />
+                     </image>
+                  </ImageView>
+               </left>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" style="-fx-background-color: red;" GridPane.columnIndex="8" GridPane.rowIndex="2">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="64" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+               <left>
+                  <ImageView fitHeight="42.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true" rotate="63.4" scaleY="16.0" translateX="-255.0" translateY="140.0" BorderPane.alignment="CENTER">
+                     <image>
+                        <Image url="@stige.png" />
+                     </image>
+                  </ImageView>
+               </left>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="8" GridPane.rowIndex="3">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="63" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane minHeight="-Infinity" minWidth="-Infinity" opacity="0.8" prefHeight="25.0" prefWidth="29.0" style="-fx-background-color: red;" GridPane.columnIndex="7" GridPane.rowIndex="3">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="62" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+               <bottom>
+                  <ImageView fitHeight="42.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true" rotate="153.9" scaleY="3.0" translateX="30.0" translateY="40.0" BorderPane.alignment="CENTER">
+                     <image>
+                        <Image url="@stige.png" />
+                     </image>
+                  </ImageView>
+               </bottom>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="6" GridPane.rowIndex="3">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="61" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="58" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="57" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="61.0" prefWidth="72.0" style="-fx-background-color: lightgrey;" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="56" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.rowIndex="3">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="55" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.rowIndex="4">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="54" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="53" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="52" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+               <left>
+                  <ImageView fitHeight="42.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true" rotate="-31.9" scaleY="2.0" translateX="-10.0" translateY="-5.0" BorderPane.alignment="CENTER">
+                     <image>
+                        <Image url="@stige.png" />
+                     </image>
+                  </ImageView>
+               </left>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="51" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="6" GridPane.rowIndex="4">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="48" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="7" GridPane.rowIndex="4">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="47" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="8" GridPane.rowIndex="4">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="46" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" style="-fx-background-color: lightgrey;" GridPane.columnIndex="8" GridPane.rowIndex="5">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="45" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane opacity="0.68" prefHeight="25.0" prefWidth="29.0" style="-fx-background-color: lightgrey;" GridPane.columnIndex="7" GridPane.rowIndex="5">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="44" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="6" GridPane.rowIndex="5">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="43" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="5" GridPane.rowIndex="5">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="42" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="4" GridPane.rowIndex="5">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="41" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="38" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.rowIndex="5">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="37" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.rowIndex="6">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="36" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="35" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="2" GridPane.rowIndex="6">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="34" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="3" GridPane.rowIndex="6">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="33" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="4" GridPane.rowIndex="6">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="32" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="5" GridPane.rowIndex="6">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="31" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="8" GridPane.rowIndex="6">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="28" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="8" GridPane.rowIndex="7">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="27" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="7" GridPane.rowIndex="7">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="26" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="6" GridPane.rowIndex="7">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="25" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="5" GridPane.rowIndex="7">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="24" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="4" GridPane.rowIndex="7">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="23" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+               <right>
+                  <ImageView fitHeight="42.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true" rotate="-121.0" scaleY="9.0" translateX="50.0" translateY="-30.0" BorderPane.alignment="CENTER">
+                     <image>
+                        <Image url="@stige.png" />
+                     </image>
+                  </ImageView>
+               </right>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" style="-fx-background-color: red;" GridPane.columnIndex="3" GridPane.rowIndex="7">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="22" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="2" GridPane.rowIndex="7">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="21" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="1" GridPane.rowIndex="9">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="2" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" style="-fx-background-color: lightgreen;" GridPane.columnIndex="2" GridPane.rowIndex="9">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="3" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="3" GridPane.rowIndex="9">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="4" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" style="-fx-background-color: lightgrey;" GridPane.columnIndex="4" GridPane.rowIndex="9">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="5" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="5" GridPane.rowIndex="9">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="6" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="6" GridPane.rowIndex="9">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="7" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" style="-fx-background-color: lightgreen;" GridPane.columnIndex="7" GridPane.rowIndex="9">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="8" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="7" GridPane.rowIndex="8">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="11" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane opacity="0.81" prefHeight="25.0" prefWidth="29.0" style="-fx-background-color: lightgrey;" GridPane.columnIndex="6" GridPane.rowIndex="8">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="12" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="70.0" GridPane.columnIndex="5" GridPane.rowIndex="8">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="13" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="4" GridPane.rowIndex="8">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="14" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+               <left>
+                  <ImageView fitHeight="42.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true" rotate="151.5" scaleY="2.0" translateX="-5.0" BorderPane.alignment="CENTER">
+                     <image>
+                        <Image url="@stige.png" />
+                     </image>
+                  </ImageView>
+               </left>
+            </BorderPane>
+            <BorderPane opacity="0.9" prefHeight="25.0" prefWidth="29.0" style="-fx-background-color: lightgreen;" GridPane.columnIndex="3" GridPane.rowIndex="8">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="15" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.columnIndex="2" GridPane.rowIndex="8">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="16" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+            <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="62.0" prefWidth="71.0" style="-fx-background-color: lightgrey;" GridPane.columnIndex="1" GridPane.rowIndex="8">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="17" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+               <bottom>
+                  <ImageView fitHeight="42.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true" rotate="110.1" translateX="5.0" translateY="2.0" BorderPane.alignment="BOTTOM_RIGHT">
+                     <image>
+                        <Image url="@stige.png" />
+                     </image>
+                     <BorderPane.margin>
+                        <Insets left="10.0" top="5.0" />
+                     </BorderPane.margin>
+                  </ImageView>
+               </bottom>
+            </BorderPane>
+            <BorderPane prefHeight="25.0" prefWidth="29.0" GridPane.rowIndex="8">
+               <top>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="18" wrappingWidth="59.691057205200195" BorderPane.alignment="CENTER" />
+               </top>
+            </BorderPane>
+         </children>
+      </GridPane>
+      <Button fx:id="start" layoutX="6.0" layoutY="588.0" mnemonicParsing="false" onAction="#updateview" style="-fx-background-color: lightblue;" text="start" />
+      <Button fx:id="Dice" disable="true" layoutX="78.0" layoutY="588.0" mnemonicParsing="false" onAction="#play" text="Dice" />
+   </children>
+</AnchorPane>
